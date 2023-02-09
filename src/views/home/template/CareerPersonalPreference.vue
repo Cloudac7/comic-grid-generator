@@ -32,6 +32,8 @@ const gameList = reactive<GameCardItem[]>([
     '最感动',
     '最虐心',
     '最被低估',
+    '有生之年',
+    '最离谱',
     '最过誉',
     '最遗憾',
     '最讨厌'
