@@ -12,7 +12,7 @@ export const enum ROUTE_NAME_DEFINE {
 }
 
 export const router = createRouter({
-  history: createWebHashHistory('game-image-generator'),
+  history: createWebHashHistory('comic-grid-generator'),
   routes: [
     {
       path: '/',
