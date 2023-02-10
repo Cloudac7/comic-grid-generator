@@ -57,7 +57,7 @@
             v-if="(item.type === CARD_CONTENT_TYPE.upload || item.type === CARD_CONTENT_TYPE.link) && item.content"
             class="wh-full object-cover"
             :src="item.content"
-            alt="" crossorigin="anonymous"
+            alt=""
         >
         <div
             class="wh-full p-4 box-border leading-[1.2]" un-flex="center"
@@ -137,7 +137,7 @@ function linkImage() {
   const result = window.prompt('请输入图片链接');
   if (result) {
     props.item.type = CARD_CONTENT_TYPE.link;
-    props.item.content = result;
+    props.item.content = "https://red-crimson-fd08.konohata.workers.dev/corsproxy/?apiurl="+result;
   } else {
     alert('无效的地址')
   }
