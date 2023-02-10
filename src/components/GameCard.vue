@@ -57,7 +57,7 @@
             v-if="(item.type === CARD_CONTENT_TYPE.upload || item.type === CARD_CONTENT_TYPE.link) && item.content"
             class="wh-full object-cover"
             :src="item.content"
-            alt=""
+            alt="" crossorigin="anonymous"
         >
         <div
             class="wh-full p-4 box-border leading-[1.2]" un-flex="center"
