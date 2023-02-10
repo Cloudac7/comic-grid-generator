@@ -1,0 +1,1 @@
+import{d as t,r as n,o as a,c as r,b as e,a as s,w as c,u as _,e as l,R as d}from"./index-71a472ae.js";const u=e("h2",null,"选择模板",-1),i={"un-flex":"~"},h=t({__name:"index",setup(m){return(p,f)=>{const o=n("router-link");return a(),r("div",null,[u,e("div",i,[s(o,{to:{name:_(d).careerPersonalPreference}},{default:c(()=>[l("漫画生涯个人喜好表")]),_:1},8,["to"])])])}}});export{h as default};
